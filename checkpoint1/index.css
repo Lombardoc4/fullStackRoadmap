@@ -47,6 +47,7 @@ a {
 
 button, a {
     color: inherit;
+    cursor: revert;
 }
 
 ul {
@@ -763,7 +764,7 @@ footer {
         width: calc(50% - var(--gutter)*5/6*3 + var(--gutter)*2 + var(--gutter));
     }
 
-    .footer__menu {
+    .footer__menu {`
         grid-column-start: 8;
     }
 }
